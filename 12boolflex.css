@@ -13,8 +13,10 @@
     color: white;
     
 }
-.border{
-    
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .row{
     display: flex;
@@ -23,6 +25,9 @@
 }
 .first-container{
     margin-bottom: 30px;
+}
+p{
+    font-size: 22px;
 }
 
 /* ? Columns */
@@ -36,6 +41,7 @@
 }
 .inside div{
     background-color: #00E164;
+     border: 2px solid  #006CFA; 
 }
 .col{
     flex-grow: 1;
@@ -61,7 +67,7 @@ p{
 .col-11,
 .col-12 {
     background-color: #006CFA;
-    border: 2px solid white;
+    border: 2px solid white; 
 } 
 .col-1{
     flex-basis: calc((100% / 12) * 1);
